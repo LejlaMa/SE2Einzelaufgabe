@@ -47,11 +47,12 @@
            android:layout_marginTop="75dp"
            android:layout_marginEnd="162dp"
            android:layout_marginRight="162dp"
+           android:onClick="sendOnCLick"
+           android:text="Abschicken"
            app:layout_constraintBottom_toTopOf="@+id/calcBtn"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintStart_toStartOf="parent"
-           app:layout_constraintTop_toBottomOf="@+id/response"
-           android:text="Abschicken"/>
+           app:layout_constraintTop_toBottomOf="@+id/response" />
 
        <Button
            android:id="@+id/calcBtn"
@@ -63,10 +64,11 @@
            android:layout_marginEnd="162dp"
            android:layout_marginRight="162dp"
            android:layout_marginBottom="161dp"
+           android:onClick="buttonOnClick"
+           android:text="Berechnen"
            app:layout_constraintBottom_toBottomOf="parent"
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintStart_toStartOf="parent"
-           app:layout_constraintTop_toBottomOf="@+id/sendBtn"
-           android:text="Berechnen"/>
+           app:layout_constraintTop_toBottomOf="@+id/sendBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
