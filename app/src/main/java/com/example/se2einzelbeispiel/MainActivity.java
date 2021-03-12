@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
 
         StringBuilder result = new StringBuilder();
 
-        //checks digits of input for prime numbers and adds them to result string
+        //output only those digits that are prime numbers
         for (int i = 0; i <= el.length-1; i++){
             if (isPrime(Character.getNumericValue(el[i]))) {
                 result.append(el[i]);
             }
         }
 
-        response.setText("Die Matrikelnummer ausschließlich mit Ziffern, die Primzahlen sind lautet: " + result.toString());
+        response.setText("Die Matrikelnummer ausschließlich mit Ziffern, die Primzahlen sind, lautet: " + result.toString());
 
     }
 

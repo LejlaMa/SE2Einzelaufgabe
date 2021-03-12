@@ -36,7 +36,10 @@
            app:layout_constraintHorizontal_bias="0.208"
            app:layout_constraintStart_toStartOf="parent"
            app:layout_constraintTop_toBottomOf="@+id/input"
-           app:layout_constraintVertical_bias="0.504" />
+           app:layout_constraintVertical_bias="0.504"
+           android:textColor="#000"
+           android:gravity="center"
+           android:textSize="18dp"/>
 
        <Button
            android:id="@+id/sendBtn"
